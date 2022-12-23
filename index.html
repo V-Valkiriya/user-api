@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/style.css">
+    <title>Get Users </title>
+    </head>
+<body>
+    <div class="container">
+        <form>
+            <button type ="button" id="get-users">Get all users</button>
+            <input type="text" name="userId" id="userId" placeholder="Enter user Id">
+            <button type="button" id="get-user">Get user by Id</button>
+        </form>
+        <div id="error" class="error"></div>
+        <div id="users" class="users"></div>
+    </div>
+    <script type="module" src="./src/init.js"></script>
+</body>
+</html>
